@@ -1,0 +1,13 @@
+******************
+AWS Snapshot
+*****************
+>It is point in time backup(inreamental backup)
+
+>select snapshot tab
+
+>creat new snapshot
+
+>Select server or volume 
+
+>snapshot of selected server or volume created
+ 
