@@ -1,0 +1,39 @@
+***********
+EBS volumes
+***********
+
+> Create a volume
+> Select availability zone as same as server zone
+> Select type of storage
+
+> Attach it to a EC2 instance
+
+> Connect to the EC2 instance
+
+> Take control
+
+> Check whether volume is attached
+# sudo lsblk
+
+> Chek if there is any data on volume
+# sudo file -s /dev/xvdf
+>if show "data" then it is raw disk then formate it.
+
+> Create a file system for volume(cmd for formate)
+#sudo mkfs -t ext4 /dev/xvdf
+
+# sudo mkdir /fileserver 
+
+> Mount HDD
+# sudo mount /dev/xvdf /fileserver
+
+# sudo cd /fileserver
+
+> Create some files using nano
+
+> Unmount the volume 
+# sudo umount /dev/xvdf
+
+> Check whether volume is unmounted or not
+# sudo cd /fileserver
+# ls 
