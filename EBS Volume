@@ -31,7 +31,7 @@ EBS volumes
 
 > Create some files using nano
 
-> Unmount the volume 
+> Unmount the volume (if you want to umount volume)
 # sudo umount /dev/xvdf
 
 > Check whether volume is unmounted or not
